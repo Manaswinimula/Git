@@ -16,7 +16,7 @@ signupForm.addEventListener('submit', function(event){
             errorMessageContainer.textContent = 'This email is already reistered. Please Try again'
             return;
         }
-
+        
         const newUser = {
             username,
             email,
